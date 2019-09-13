@@ -1,0 +1,85 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/perumahan1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: #fff;
+}
+
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 6em;
+}
+
+.menu{
+    float: right;
+    line-height: 50px;
+    margin: 0 6em;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(5) a{
+    color: 009f8b;
+    border: 3px solid #75ec14;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: #fff
+}
+
+.join{
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    color: #fff;
+    transform: translate(-50% -50%);
+    text-align: center;
+    color: 009f8b;
+    border: 3px solid #75ec14;
+    padding: 5px 10px;
+}
